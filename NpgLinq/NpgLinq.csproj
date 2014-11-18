@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyQueryable\NpgProvider.cs" />
+    <Compile Include="MyQueryable\NpgQuery.cs" />
+    <Compile Include="MyQueryable\TypeSystem.cs" />
     <Compile Include="NpgExtension.cs" />
     <Compile Include="MyAttribute\SqlColumnAttribute.cs" />
     <Compile Include="MyAttribute\SqlTableAttribute.cs" />
